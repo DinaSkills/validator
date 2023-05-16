@@ -20,6 +20,15 @@ openpyxl module (can be installed via pip)
 Clone this repository or download the source code.
 Install the openpyxl module by running the following installation library openpyxl
 
+## Installation via requrements.py
+
+1. pip install --user virtualenv (installing virtualenv if not already installed)
+2. python -m venv env (creating a virtual environment named "env" in the root folder)
+3. ./env/Scripts/activate (activating the virtual environment)
+4. pip install -r requirements.txt (installing the requirements specified in the "requirements.txt" file)
+5. python main.py (running the script)
+
+
 ## Usage
 1. Navigate to the project directory using your terminal.
 2. Run the main.py script.
